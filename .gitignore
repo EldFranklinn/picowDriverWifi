@@ -1,0 +1,24 @@
+# Build
+build/
+cmake-build-*/
+
+# Pico SDK
+.pico-sdk/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Binários
+*.elf
+*.bin
+*.uf2
+*.hex
+*.map
+*.dis
+
+# Editor
+.vscode/
+.idea/
